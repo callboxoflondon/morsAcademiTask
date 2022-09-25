@@ -1,0 +1,32 @@
+<svg width="720" height="720" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="null" ry="359.858587" rx="359.025323" id="svg_27" cy="360.890972" cx="359.883186" stroke-opacity="null" stroke-width="null" fill="#88c5cc"/>
+  <ellipse id="svg_28" cy="494.557498" cx="821.799753" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="#0DA9BD"/>
+  <path stroke="null" opacity="0.3" id="svg_6" fill="#231F20" d="m708.502033,459.502079l-185.008875,-228.850417l-28.976234,14.137568l-44.637571,-44.78923l-54.777873,241.929481l-152.929614,12.363859l-12.42233,34.1153l50.776145,13.410102l13.747378,20.841087l-89.773059,20.638786l175.373646,176.405423c210.587628,-27.234002 281.134191,-132.471375 328.628388,-260.201959z"/>
+  <rect id="svg_8" fill="#FFDE55" y="248" x="204.5" width="240" height="288"/>
+  <path id="svg_9" fill="#5AAAE7" d="m396.5,200l48,0l0,48l-240,0l0,-48l192,0zm0,0"/>
+  <path id="svg_10" fill="#C6C5CA" d="m516.5,470l0,6l-18,42l-18,-42l0,-6l36,0zm0,0"/>
+  <rect id="svg_11" fill="#FF9811" y="230" x="480.5" width="36" height="36"/>
+  <rect id="svg_12" fill="#FF9811" y="284" x="480.5" width="36" height="186"/>
+  <rect id="svg_13" fill="#E6E7E8" y="266" x="480.5" width="36" height="18"/>
+  <path id="svg_14" fill="#FFCD00" d="m444.5,327.262l0,208.738l-204.961,0c61.02,-40.922 154.262,-114.359 204.961,-208.738l0,0zm0,0"/>
+  <rect id="svg_15" fill="#1E81CE" y="182" x="318.5" width="12" height="36"/>
+  <rect id="svg_16" fill="#1E81CE" y="182" x="354.5" width="12" height="36"/>
+  <rect id="svg_17" fill="#1E81CE" y="182" x="390.5" width="12" height="36"/>
+  <rect id="svg_18" fill="#1E81CE" y="182" x="282.5" width="12" height="36"/>
+  <rect id="svg_19" fill="#1E81CE" y="182" x="246.5" width="12" height="36"/>
+  <rect id="svg_20" fill="#EBBF00" y="278" x="234.5" width="180" height="12"/>
+  <rect id="svg_21" fill="#EBBF00" y="314" x="234.5" width="180" height="12"/>
+  <rect id="svg_22" fill="#EBBF00" y="350" x="234.5" width="180" height="12"/>
+  <rect id="svg_23" fill="#EBBF00" y="386" x="234.5" width="180" height="12"/>
+  <rect id="svg_24" fill="#EBBF00" y="422" x="234.5" width="180" height="12"/>
+  <rect id="svg_25" fill="#EBBF00" y="458" x="234.5" width="180" height="12"/>
+  <rect id="svg_26" fill="#EBBF00" y="494" x="234.5" width="180" height="12"/>
+ </g>
+</svg>
