@@ -16,23 +16,22 @@ export default function VideoContent({ filters }) {
       headers: { "Access-Control-Allow-Origin": "*" },
       data: {},
     }).then((data) => {
+      // eslint-disable-next-line
       if (data.status == 200) {
-        setVideos(
-          data.data.sort((a, b) => {
-            return parseFloat(b.createdAt) - parseFloat(a.createdAt);
-          })
-        );
-        setFullVideos(
-          data.data.sort((a, b) => {
-            return parseFloat(b.createdAt) - parseFloat(a.createdAt);
-          })
-        );
+        let array = data.data.sort((a, b) => {
+          return parseFloat(b.createdAt) - parseFloat(a.createdAt);
+        });
+
+        setVideos(array);
+
+        setFullVideos(array);
       } else {
         alert(
           "Data getirilirken bir sorun oluştu. Portları ve serveri kontrol edin"
         );
       }
     });
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -47,10 +46,12 @@ export default function VideoContent({ filters }) {
               ? obj.confirmation === (filters.approval === "Onaylanmış")
               : true) &&
             (filters.classNumber !== "Tümü"
-              ? obj.users.class == filters.classNumber
+              ? // eslint-disable-next-line
+                obj.users.class == filters.classNumber
               : true) &&
             (filters.section !== "Tümü"
-              ? obj.users.section == filters.section
+              ? // eslint-disable-next-line
+                obj.users.section == filters.section
               : true)
           );
         })
@@ -98,6 +99,7 @@ export default function VideoContent({ filters }) {
                 headers: { "Access-Control-Allow-Origin": "*" },
                 data: { id: item._id },
               }).then((data) => {
+                // eslint-disable-next-line
                 if (data.status == 200) {
                   let tempArray = videos;
                   tempArray = tempArray.filter((obj) => obj._id !== item._id);
@@ -118,6 +120,7 @@ export default function VideoContent({ filters }) {
                   headers: { "Access-Control-Allow-Origin": "*" },
                   data: { id: item._id },
                 }).then((data) => {
+                  // eslint-disable-next-line
                   if (data.status == 200) {
                     let tempArray = videos;
 
@@ -144,6 +147,7 @@ export default function VideoContent({ filters }) {
                 headers: { "Access-Control-Allow-Origin": "*" },
                 data: { id: item._id },
               }).then((data) => {
+                // eslint-disable-next-line
                 if (!data.status == 200) {
                   alert("log yazılırken hata oluştu");
                 }
